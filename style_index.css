@@ -70,14 +70,14 @@ a {
     margin-left: 10px;
 }
 
-.header__btn {
+.submit_form {
     background-color: #FFFFFF;
     border-radius: 60px;
     border: 1px solid #FFFFFF;
     margin-left: 34.23px;
 }
 
-.header__btn-text {
+.submit_form-text {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -150,3 +150,94 @@ a {
     max-width: 1078px;
     margin: 0 auto;
 }
+
+/*distinction*/
+
+.distinction {
+    margin-bottom: 150px;
+}
+
+.distinction__info {
+    width: 736px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.distinction-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.distinction-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.distinction__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-bottom: 80px;
+}
+
+.distinction__items-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.distinction__items-negative {
+    width: 1097px;
+    padding: 60px 65px 82px 65px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(22, 22, 22, 0.67), rgba(22, 22, 22, 0.67)),
+    linear-gradient(108.65deg, rgba(214, 38, 26, 0.54) 1.27%, rgba(214, 38, 26, 0.06) 89.16%);
+    box-shadow: 4px 4px 20px 0px #1616161A;
+    box-shadow: -6px -6px 20px 0px #901B1B66;
+    box-shadow: 2px 2px 4px 0px #16161675;
+}
+
+.distinction__items-text {
+    margin-left: 40px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.distinction__items-span {
+    font-style: italic;
+}
+
+.distinction__items-positive {
+    width: 1097px;
+    padding: 60px 65px 82px 65px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(22, 22, 22, 0.67), rgba(22, 22, 22, 0.67)),
+    linear-gradient(110.12deg, rgba(33, 183, 57, 0.55) 1.35%, rgba(33, 183, 57, 0) 102.18%);
+    box-shadow: 4px 4px 20px 0px #1616161A;
+    box-shadow: -6px -6px 20px 0px #5D901B66;
+    box-shadow: 2px 2px 4px 0px #16161675;
+}
+
+
+
+
