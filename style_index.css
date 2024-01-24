@@ -13,8 +13,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
-    max-width: 1327px;
+    max-width: 1335px;
     margin: 0 auto;
 } 
 
@@ -68,13 +72,13 @@ a {
 
 .header-telegram {
     margin-left: 10px;
+    margin-right: 34.23px;
 }
 
 .submit_form {
     background-color: #FFFFFF;
     border-radius: 60px;
     border: 1px solid #FFFFFF;
-    margin-left: 34.23px;
 }
 
 .submit_form-text {
@@ -236,6 +240,18 @@ a {
     box-shadow: 4px 4px 20px 0px #1616161A;
     box-shadow: -6px -6px 20px 0px #5D901B66;
     box-shadow: 2px 2px 4px 0px #16161675;
+}
+
+/*approach*/
+
+.approach-header {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 80px;
 }
 
 
