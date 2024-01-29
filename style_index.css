@@ -359,6 +359,12 @@ input {
     color: #544848;
 }
 
+/*services*/
+
+.services {
+    margin-bottom: 150px;
+}
+
 .services-heading {
     font-size: 64px;
     font-weight: 700;
@@ -369,6 +375,112 @@ input {
     margin-top: 150px;
     margin-bottom: 80px;
 }
+
+.services__item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 80px;
+}
+
+.services__item-title {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.services__item-title-1 {
+    width: 419px;
+    margin-right: 139px;
+}
+
+.services__item-title-2 {
+    width: 396px;
+    margin-right: 162px;
+}
+
+.services__item-title-3 {
+    width: 479px;
+    margin-right: 79px;
+}
+
+.services-li {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.services-hr {
+    margin-bottom: 80px;
+    border: 1px solid #707070
+}
+
+.services-btn-flex {
+    display: flex;
+    justify-content: center;
+}
+
+/*niches*/
+
+.niches {
+    margin-bottom: 150px;
+}
+
+.niches-header {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.niches-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.niches-btn-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.niches__card {
+    width: 650px;
+    height: 304px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.niches__card-title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.niches__card-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
 
 
 
