@@ -13,7 +13,7 @@ function renderFeatures(featuresArray) {
     featuresArray.forEach(function (item) {
         const featuresHTML = `
             <div class="features__card" data-id="${item.id}">
-                <img class="features__card-img" src="" alt="">
+                <img class="features__card-img" src="${item.img}" alt="${item.alt}">
                 <h3 class="features__card-title">${item.title}</h3>
                 <p class="features__card-text">${item.text}</p>
             </div>
