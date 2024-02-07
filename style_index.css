@@ -140,6 +140,15 @@ button {
     margin-left: 10px;
 }
 
+.promo-back {
+    background: url(./img/promo.svg) no-repeat;
+    position: absolute;
+    height: 836px;
+    width: 100%;
+    top: 0;
+    margin-left: -90px;
+}
+
 /*group*/
 
 .group {
@@ -479,6 +488,7 @@ input {
     text-align: left;
     color: #FFFFFF;
 }
+
 
 /*commetn*/
 
@@ -1277,8 +1287,3 @@ input {
     text-align: left;
     color: #FFFFFF;
 }
-
-
-
-
-
