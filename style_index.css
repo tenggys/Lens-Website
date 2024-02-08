@@ -10,14 +10,19 @@ body {
     font-family: 'Ubuntu Mono', monospace;
 }
 
-a {
+ul {
     display: block;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
 button {
     cursor: pointer;
 }
+
 
 .container {
     max-width: 1335px;
@@ -142,11 +147,9 @@ button {
 
 .promo-back {
     background: url(./img/promo.svg) no-repeat;
-    position: absolute;
     height: 836px;
     width: 100%;
-    top: 0;
-    margin-left: -90px;
+    margin-top: -690px;
 }
 
 /*group*/
